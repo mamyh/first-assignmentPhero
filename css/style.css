@@ -67,6 +67,9 @@ p{
     background-image: url(../images/shapes/Frame\ 58.jpg);
     background-size: cover;
 }
+#recipies{
+    padding-bottom: 10rem;
+}
 
 .my-recipies{
     width:40%;
@@ -162,14 +165,11 @@ p{
     transition: all .5s ease-out;
     z-index: -1;
 }
-.item:hover::before{
+.item:hover::before {
     color:#ccc;
     font-weight: 700;
     width: 100%;
     transform:scaleY(1);
-}
-.item:hover a{
-    color:inherit;
 }
 
 .link:link,.link:visited{
@@ -179,3 +179,18 @@ p{
    color: inherit;
    padding:1rem 3rem;
 }
+#followers{
+    width: 90%;
+    margin:0 auto 5rem;
+    box-shadow: 1rem 1rem 4rem rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.followers{
+    width:25%;
+    margin-left:auto;
+    padding:4rem;
+ }
+ .followers h1{
+     color:#000;
+ }
+

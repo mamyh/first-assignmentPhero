@@ -40,7 +40,7 @@ p{
    padding:3rem;
 }
 .half-width{
-    width:40%;
+    width:45%;
     margin:4rem auto;
     padding-left:4rem;
 }
@@ -103,4 +103,18 @@ p{
     display: inline-block;
     object-fit: fill;
     border-radius: 7%;
+}
+#footer{
+    text-align: center;
+    background-color: #000;
+    color: #aaa;
+}
+#footer h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding:2rem 0;
+}
+#footer p{
+ text-align: center;
+ padding-bottom: 6rem;
 }

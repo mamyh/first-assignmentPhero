@@ -10,14 +10,18 @@ html{
 }
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    color:#555;
 }
 h1{
     font-weight: 900;
     font-size: 5rem;
+    text-transform: capitalize;
 }
 h2{
     font-weight: 700;
     font-size: 3rem;
+    text-transform: capitalize;
+
 }
 p{
     color:inherit;
@@ -32,17 +36,18 @@ p{
 .flexible-container{
     display: flex;
 } 
-.order-food{
+#order-food{
    padding:3rem;
 }
 .half-width{
     width:50%;
-    margin:4rem auto
+    margin:4rem auto;
+    padding-left:4rem;
 }
-.order-content{
-    padding:14rem 3rem 1rem;
+.content{
+    padding:3rem 3rem 1rem;
 }
-#order-text{
+#text{
     margin:4rem 0;
 }
 .half-width img{
@@ -57,4 +62,8 @@ p{
     color:#fff;
     padding:1rem 4rem;
     border-radius: 10rem;
+}
+#contact{
+    background-image: url(../images/shapes/Frame\ 58.jpg);
+    background-size: cover;
 }

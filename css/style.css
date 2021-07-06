@@ -1,3 +1,60 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 h1{
-    background-color: antiquewhite;
+    font-weight: 900;
+    font-size: 5rem;
+}
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+p{
+    color:inherit;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+.orange{
+    color:orange;
+}
+.flexible-container{
+    display: flex;
+} 
+.order-food{
+   padding:3rem;
+}
+.half-width{
+    width:50%;
+    margin:4rem auto
+}
+.order-content{
+    padding:14rem 3rem 1rem;
+}
+#order-text{
+    margin:4rem 0;
+}
+.half-width img{
+    width:80%;
+}
+.btn{
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-image: linear-gradient(to right,orange,tomato);
+    color:#fff;
+    padding:1rem 4rem;
+    border-radius: 10rem;
 }
